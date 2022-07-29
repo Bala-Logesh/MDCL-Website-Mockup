@@ -1,0 +1,44 @@
+.button__cta,
+.card__button,
+.card__button--long {
+	font-size: 1rem;
+	padding: 0.75rem;
+	width: 150px;
+	border-radius: 5px;
+	background-color: var(--clr-blue-light);
+	color: var(--clr-white-2);
+}
+
+.card__button {
+	background-color: var(--clr-blue-lighter);
+	color: var(--clr-blue-dark);
+}
+
+.card__button-active {
+	color: var(--clr-white);
+	background-color: var(--clr-blue-dark);
+}
+
+.card__button--long {
+	width: 180px;
+}
+
+.button__cta:hover,
+.button__cta:focus {
+	color: var(--clr-blue-light);
+	background-color: var(--clr-white-2);
+}
+
+.card__button:hover,
+.card__button:focus {
+	color: var(--clr-white);
+	background-color: var(--clr-blue-dark);
+}
+
+.card__button-active:hover,
+.card__button-active:focus,
+.card__button--long:hover,
+.card__button--long:focus {
+	color: var(--clr-white);
+	background-color: var(--clr-blue-light);
+}

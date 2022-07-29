@@ -1,0 +1,126 @@
+/* Flexbox */
+.flex,
+.flex--col {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex--col {
+	flex-direction: column;
+}
+
+.flex--jcsb {
+	justify-content: space-between;
+}
+
+.flex--jcs {
+	justify-content: start;
+}
+
+.flex--ais {
+	align-items: start;
+}
+
+.flex--aisr {
+	align-items: stretch;
+}
+
+.flex--1 {
+	flex: 1;
+}
+
+/* Grids */
+.grid--2cols {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3cols {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--5cols {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+/* Text Alignment */
+.tac {
+	text-align: center;
+}
+
+.tal {
+	text-align: left;
+}
+
+/* Margin classes */
+.mt-2rem {
+	margin-top: 2rem;
+}
+
+.mb-2rem {
+	margin-bottom: 2rem;
+}
+
+.ml-auto{
+	margin-left: auto;
+}
+
+/* Gap classes */
+.gap10 {
+	gap: 10px;
+}
+
+.gap20 {
+	gap: 20px;
+}
+
+.gap30 {
+	gap: 30px;
+}
+
+.gap60--r {
+	row-gap: 60px;
+}
+
+/* Spacers */
+.space--2rem {
+	height: 2rem;
+}
+
+.space--5rem {
+	height: 5rem;
+}
+
+.space--7rem {
+	height: 7rem;
+}
+
+/* Position classes */
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+/* Height and width */
+.w-80p {
+	width: 80%;
+}
+
+.w-100p {
+	width: 100%;
+}
+
+/* Misc classes */
+.cur-ptr {
+	cursor: pointer;
+}
+
+.order-2{
+	order: 2;
+}

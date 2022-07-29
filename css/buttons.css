@@ -1,0 +1,64 @@
+/* Bg: blue500, Txt: white900 */
+.btn--blue500--white900,
+.newsletter__btn {
+	font-size: var(--fs-normal);
+	min-width: 140px;
+	padding: 0.75rem 1rem;
+	border-radius: 5px;
+	background-color: var(--clr-blue-500);
+	color: var(--clr-white-900);
+}
+
+.btn--blue500--white900:hover,
+.btn--blue500--white900:focus {
+	background-color: var(--clr-white-900);
+	color: var(--clr-blue-500);
+}
+
+/* Bg: blue400, Txt: blue600 */
+.btn--blue400--blue600 {
+	font-size: var(--fs-normal);
+	min-width: 100px;
+	padding: 0.6rem 0.85rem;
+	border-radius: 5px;
+	font-size: var(--fs-small);
+	background-color: var(--clr-blue-400);
+	color: var(--clr-blue-600);
+}
+
+.btn--blue400--blue600:hover,
+.btn--blue400--blue600:focus {
+	background-color: var(--clr-blue-500);
+	color: var(--clr-white-900);
+}
+
+/* Bg: blue600, Txt: white900 */
+.btn--blue600--white900 {
+	font-size: var(--fs-normal);
+	min-width: 140px;
+	padding: 0.75rem 1rem;
+	border-radius: 5px;
+	background-color: var(--clr-blue-600);
+	color: var(--clr-white-900);
+}
+
+.btn--blue600--white900:hover,
+.btn--blue600--white900:focus {
+	background-color: var(--clr-blue-500);
+}
+
+/* Button for the newsletter section */
+.newsletter__btn {
+	border-radius: 0;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-transform: uppercase;
+	font-size: var(--fs-xsmall);
+	min-width: 100px;
+}
+
+.newsletter__btn:hover,
+.newsletter__btn:focus {
+	background-color: var(--clr-blue-400);
+	color: var(--clr-blue-600);
+}

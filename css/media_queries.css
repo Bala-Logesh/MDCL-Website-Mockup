@@ -1,0 +1,234 @@
+/* Adjusting the height of the top and bottom backgrounds based on screen height and orientation */
+/* min-height: 600px, orientation: landscape */
+@media screen and (min-height: 600px) and (orientation: landscape) {
+	.background__top {
+		max-height: 145vh;
+	}
+
+	.background__top__verticalText {
+		top: 80vh;
+	}
+
+	.background__bottom {
+		min-height: 75vh;
+	}
+}
+/* min-height: 800px, orientation: landscape */
+@media screen and (min-height: 800px) and (orientation: landscape) {
+	.background__top {
+		max-height: 115vh;
+	}
+
+	.background__bottom {
+		min-height: 55vh;
+	}
+}
+
+/* min-height: 1000px, orientation: landscape */
+@media screen and (min-height: 1000px) and (orientation: landscape) {
+	.background__top {
+		max-height: 85vh;
+	}
+
+	.background__top__verticalText {
+		top: 50vh;
+	}
+
+	.newsletter__desc {
+		max-width: 70%;
+	}
+
+	.background__bottom {
+		min-height: 45vh;
+	}
+}
+
+/* min-height: 1400px, orientation: landscape */
+@media screen and (min-height: 1400px) and (orientation: landscape) {
+	.background__top {
+		max-height: 65vh;
+	}
+
+	.background__top__verticalText {
+		left: 10vw;
+		top: 40vh;
+	}
+
+	.background__bottom {
+		min-height: 30vh;
+	}
+}
+
+/* Adjusting the container width and spacing based on screen width */
+@media screen and (min-width: 1920px) {
+	.container {
+		max-width: 1400px;
+	}
+
+	.space--10rem--sm {
+		height: 10rem;
+	}
+}
+
+/* Adjusting the classes based on screen width */
+/* max-width: 1280px */
+@media screen and (max-width: 1280px) {
+	.background__top__verticalText {
+		top: 40vh;
+		left: 20px;
+	}
+}
+
+/* max-width: 1024px */
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 90%;
+	}
+
+	.background__top__verticalText {
+		display: none;
+	}
+
+	.card__img--square {
+		min-width: 10%;
+	}
+
+	.card__row {
+		flex-direction: column;
+	}
+
+	.grid--3cols {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.grid--2cols.why__choose__us,
+	.grid--2cols.what__patients__say {
+		grid-template-columns: 1fr;
+	}
+
+	.why__choose__us .grid--2cols--left {
+		margin-bottom: 6rem;
+	}
+
+	.what__patients__say .grid--2cols--left {
+		margin-bottom: 3rem;
+	}
+
+	.newsletter_img {
+		display: none;
+	}
+
+	.newsletter__desc {
+		max-width: 100%;
+	}
+
+	.grid--5cols {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.background__bottom {
+		min-height: 95vh;
+	}
+}
+
+/* max-width: 765px */
+@media screen and (max-width: 765px) {
+	.container{
+		padding-top: 2rem;
+	}
+	
+	.navbar {
+		display: none;
+	}
+
+	.navbar__mobile {
+		display: block;
+	}
+
+	.background__top {
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+}
+
+/* max-width: 680px */
+@media screen and (max-width: 680px) {
+	.grid--2cols {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* max-width: 550px */
+@media screen and (max-width: 550px) {
+	:root {
+		--fs-xlarge: 2rem;
+		--fs-xxlarge: 3rem;
+	}
+
+	.container--white--bs--1 .card {
+		flex-direction: column;
+	}
+
+	.container--white--bs--1 .card .card__img {
+		order: 2;
+		width: 80%;
+		height: 200px;
+		margin: 0 auto;
+	}
+
+	.grid--3cols {
+		grid-template-columns: 1fr;
+	}
+
+	.grid--2cols--left__content {
+		width: 40%;
+	}
+
+	.w-80p {
+		width: 100%;
+	}
+
+	.grid--5cols {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.footer__header {
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.footer__col,
+	.footer__list {
+		align-items: center;
+	}
+
+	.footer__col:last-child {
+		grid-column: 1 / -1;
+	}
+
+	.footer__list__item {
+		text-align: center;
+	}
+}
+
+/* max-width: 450px */
+@media screen and (max-width: 450px) {
+	.newsletter__input {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.newsletter input,
+	.newsletter__btn {
+		border-radius: 10px;
+		width: 100%;
+	}
+
+	.background__bottom {
+		min-height: 150vh;
+	}
+
+	.grid--5cols {
+		grid-template-columns: 1fr;
+	}
+}
